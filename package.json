@@ -1,16 +1,14 @@
 {
-  "name": "viktorpopp-website",
+  "name": "viktorpopp-deno-dev",
   "type": "module",
   "version": "0.0.1",
-  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
+    "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "@deno/astro-adapter": "^0.3.0",
     "astro": "^5.7.5"
   }
 }

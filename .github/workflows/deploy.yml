@@ -39,6 +39,6 @@ jobs:
         with:
           project: "viktorpopp"
           entrypoint: "server/entry.mjs"
-          root: "dist"
+          root: "./dist"
           
           

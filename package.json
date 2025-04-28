@@ -1,5 +1,5 @@
 {
-  "name": "viktorpopp-deno-dev",
+  "name": "website",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,7 +9,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.5",
-    "@deno/astro-adapter": "^0.3.0"
+    "astro": "^5.7.5"
   }
 }

@@ -1,5 +1,5 @@
----
-import '../styles/global.css';
+--- 
+import '../styles/global.css'; 
 ---
 
 <html lang="en">
@@ -12,6 +12,61 @@ import '../styles/global.css';
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Viktor</h1>
+    <svg width="100vw" height="100vh" xmlns="http://www.w3.org/2000/svg">
+      <style>
+        .center-text {
+          font-size: 10rem;
+          fill: #d65d0e;
+          font-family: "Roboto", sans-serif;
+        }
+        .link-text {
+          font-size: 1rem;
+          fill: #d65d0e;
+          font-family: "Roboto", sans-serif;
+          text-decoration: none;
+        }
+      </style>
+
+      <!-- Center Text -->
+      <text x="50%" y="50%" class="center-text" text-anchor="middle" alignment-baseline="middle">
+        Viktor
+      </text>
+
+      <!-- Scattered Links -->
+      <!-- Upper-left -->
+      <text x="25%" y="15%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+
+      <!-- Upper-right -->
+      <text x="75%" y="10%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+
+      <!-- Right -->
+      <text x="85%" y="60%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+
+      <!-- Lower-left -->
+      <text x="20%" y="80%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+
+      <!-- Left -->
+      <text x="10%" y="50%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+
+      <!-- Upper-center -->
+      <text x="40%" y="25%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+
+      <!-- Lower-center -->
+      <text x="60%" y="85%" class="link-text" text-anchor="middle">
+        <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+      </text>
+    </svg>
   </body>
 </html>
